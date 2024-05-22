@@ -4,10 +4,7 @@ import { join } from 'path';
 import { fromJcamp } from '../..';
 
 test('fromJcamp', () => {
-  let jcamp = readFileSync(
-    join(__dirname, './data/jcamp.jdx'),
-    'utf8',
-  );
+  let jcamp = readFileSync(join(__dirname, './data/jcamp.jdx'), 'utf8');
   let analysis = fromJcamp(jcamp);
 
   let spectrum1 = analysis.getXYSpectrum();
