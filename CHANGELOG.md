@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.1.0...v0.2.0) (2024-05-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies and use common-spectrum 2.8.0
+
+### Miscellaneous Chores
+
+* update dependencies and use common-spectrum 2.8.0 ([d33ec95](https://www.github.com/cheminfo/dsc-spectrum/commit/d33ec9515bcd4ef96e0d1f5564163ab9c1c172ec))
+
 ## [0.1.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.0.2...v0.1.0) (2021-02-09)
 
 
