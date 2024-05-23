@@ -44,3 +44,5 @@ lib
 .DS_Store
 
 directories
+
+dist

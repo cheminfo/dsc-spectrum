@@ -46,6 +46,7 @@
     "rollup": "^4.18.0"
   },
   "dependencies": {
-    "common-spectrum": "2.8.0"
+    "common-spectrum": "2.8.0",
+    "physical-chemistry-parser": "^3.3.0"
   }
 }
