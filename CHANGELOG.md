@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.2.0...v0.3.0) (2024-05-23)
+
+
+### Features
+
+* add fromTAInstrumentsExcel method ([ffbb5ee](https://www.github.com/cheminfo/dsc-spectrum/commit/ffbb5eecd281b5d56bd6bc1b364c1c298a762512))
+
 ## [0.2.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.1.0...v0.2.0) (2024-05-22)
 
 
