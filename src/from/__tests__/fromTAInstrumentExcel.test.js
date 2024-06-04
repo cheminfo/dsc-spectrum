@@ -7,7 +7,7 @@ test('import from TA instruments excel file', () => {
   const data = readFileSync(join(__dirname, 'data/MR0132-D.xls'));
 
   const output = fromTAInstrumentsExcel(data);
-  expect(output.spectra).toHaveLength(1);
+  expect(output.spectra).toHaveLength(5);
   expect(Object.keys(output.spectra[0].variables)).toStrictEqual([
     't',
     'x',
