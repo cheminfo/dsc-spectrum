@@ -18,7 +18,6 @@ export function fromTAInstrumentsExcel(blob) {
     },
   });
 
-
   for (const sheet of parsed.sheets) {
     analysis.pushSpectrum(sheet.variables, {
       dataType: 'DSC',
