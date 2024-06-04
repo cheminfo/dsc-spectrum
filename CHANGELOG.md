@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.3.0...v0.4.0) (2024-06-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* fromTAInstrumentExcel generate both the combined chart and all the charts indivisually
+
+### Features
+
+* fromTAInstrumentExcel generate both the combined chart and all the charts indivisually ([51b6589](https://www.github.com/cheminfo/dsc-spectrum/commit/51b6589cc611eb3f1b5fda31b362ebea7ce908d3))
+
 ## [0.3.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.2.0...v0.3.0) (2024-05-23)
 
 
