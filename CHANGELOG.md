@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.1](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.4.0...v0.4.1) (2024-06-05)
+
+
+### Bug Fixes
+
+* deal with empty sheets in TAInstruments ([76c06b3](https://www.github.com/cheminfo/dsc-spectrum/commit/76c06b3c30b3da7d0afb9f7b339389a8082efb25))
+
 ## [0.4.0](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.3.0...v0.4.0) (2024-06-04)
 
 
