@@ -1,10 +1,10 @@
 export {
-  Analysis,
   AnalysesManager,
+  Analysis,
+  JSGraph,
   fromJcamp,
   toJcamp,
   toJcamps,
-  JSGraph,
 } from 'common-spectrum';
 
-export { fromTAInstrumentsExcel } from './from/fromTAInstrumentsExcel';
+export { fromTAInstrumentsExcel } from './from/fromTAInstrumentsExcel.js';

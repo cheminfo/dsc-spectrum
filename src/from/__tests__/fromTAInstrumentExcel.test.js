@@ -1,12 +1,15 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
-import { fromTAInstrumentsExcel } from '../fromTAInstrumentsExcel';
+import { expect, test } from 'vitest';
+
+import { fromTAInstrumentsExcel } from '../fromTAInstrumentsExcel.js';
 
 test('import from TA instruments excel file', () => {
-  const data = readFileSync(join(__dirname, 'data/MR0132-D.xls'));
+  const data = readFileSync(join(import.meta.dirname, 'data/MR0132-D.xls'));
 
   const output = fromTAInstrumentsExcel(data);
+
   expect(output.spectra).toHaveLength(5);
   expect(Object.keys(output.spectra[0].variables)).toStrictEqual([
     't',
