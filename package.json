@@ -17,6 +17,7 @@
     "clean": "rimraf coverage lib",
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
+    "prepack": "npm run tsc",
     "prettier": "prettier --check src",
     "prettier-write": "prettier --write src",
     "test": "npm run test-only && npm run check-types && npm run eslint && npm run prettier",
@@ -36,9 +37,6 @@
     "url": "https://github.com/cheminfo/dsc-spectrum/issues"
   },
   "homepage": "https://github.com/cheminfo/dsc-spectrum#readme",
-  "jest": {
-    "testEnvironment": "node"
-  },
   "devDependencies": {
     "@types/node": "^25.0.10",
     "@types/papaparse": "^5.5.2",
