@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.0](https://github.com/cheminfo/dsc-spectrum/compare/v0.4.1...v1.0.0) (2026-01-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to type=module
+
+### Features
+
+* create fromPerkinElmer and fromPerkinElmerCSV ([40b5c10](https://github.com/cheminfo/dsc-spectrum/commit/40b5c10be4e441f9a136e5c5d4d92e0b525f47b7))
+
+
+### Miscellaneous Chores
+
+* migrate to type=module ([ffd3d2d](https://github.com/cheminfo/dsc-spectrum/commit/ffd3d2db9044faa3d5e49dccf1750387e6ec28a1))
+
 ### [0.4.1](https://www.github.com/cheminfo/dsc-spectrum/compare/v0.4.0...v0.4.1) (2024-06-05)
 
 
