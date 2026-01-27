@@ -1,7 +1,9 @@
 import { Analysis } from 'common-spectrum';
+import type { TextData } from 'ensure-string';
+// @ts-expect-error physical-chemistry-parser has no types
 import { dscParseTAInstrumentsXLS } from 'physical-chemistry-parser';
 
-export function fromTAInstrumentsExcel(blob) {
+export function fromTAInstrumentsExcel(blob: TextData) {
   const analysis = new Analysis();
   const parsed = dscParseTAInstrumentsXLS(blob);
 

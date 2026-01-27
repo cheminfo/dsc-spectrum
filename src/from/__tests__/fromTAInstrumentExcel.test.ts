@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 import { expect, test } from 'vitest';
 
-import { fromTAInstrumentsExcel } from '../../index.js';
+import { fromTAInstrumentsExcel } from '../../index.ts';
 
 test('import from TA instruments excel file', () => {
   const data = readFileSync(join(import.meta.dirname, 'data/MR0132-D.xls'));

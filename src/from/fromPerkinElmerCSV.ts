@@ -2,7 +2,7 @@ import type { TextData } from 'cheminfo-types';
 import { ensureString } from 'ensure-string';
 import Papa from 'papaparse';
 
-import { Analysis } from '../index.js';
+import { Analysis } from '../index.ts';
 
 /**
  * @param text

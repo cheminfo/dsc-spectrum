@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 import { expect, test } from 'vitest';
 
-import { fromJcamp, fromPerkinElmerCSV, toJcamp } from '../../index.js';
+import { fromJcamp, fromPerkinElmerCSV, toJcamp } from '../../index.ts';
 
 test('fromPerkinElmer', () => {
   const csv = readFileSync(

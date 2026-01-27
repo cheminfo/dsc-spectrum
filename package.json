@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "common-spectrum": "3.1.0",
-    "ensure-string": "^1.2.0",
+    "ensure-string": "^2.0.0",
     "papaparse": "^5.5.3",
     "physical-chemistry-parser": "^3.4.2",
     "tga-spectrum": "^1.0.0"

@@ -1,12 +1,11 @@
-import type { TextData } from 'cheminfo-types';
+import type { TextData } from 'ensure-string';
 import { ensureString } from 'ensure-string';
 import { parsePerkinElmerAscii } from 'tga-spectrum';
 
-import { Analysis } from '../index.js';
+import { Analysis } from '../index.ts';
 
 /**
  * Creates a new Chromatogram element based in a JCAMP string
- * @param text - String containing the JCAMP data
  * @param arrayBuffer
  * @returns - New class element with the given data
  */
